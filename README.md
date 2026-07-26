@@ -52,6 +52,13 @@ Feature importance analysis from the Random Forest model confirmed that SINR, RS
 ### Real-World Validation
 The Random Forest classifier (trained on synthetic data using only common features: RSRP, RSRQ, and SINR) was evaluated on the cleaned real O-RAN dataset. This provides an initial measure of how well the interference detection model generalizes to real network measurements.
 
+### Key Findings
+- SINR, RSRP, and PRB utilization are the strongest predictors of high-interference risk.
+- The Random Forest baseline performed excellently on synthetic data.
+- On real O-RAN data, the model showed high precision but moderate recall (sim-to-real gap).
+- Despite the performance drop, the model remains useful due to its high reliability when predicting high-risk users.
+- The sim-to-real gap can be reduced by fine-tuning on real measurements in future work.
+
 ### Next Steps
 In upcoming modules I will:
 - Implement ARIMA forecasting
