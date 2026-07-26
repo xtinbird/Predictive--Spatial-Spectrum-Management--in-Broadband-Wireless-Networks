@@ -54,10 +54,10 @@ The Random Forest classifier (trained on synthetic data using only common featur
 
 ### Key Findings
 - SINR, RSRP, and PRB utilization are the strongest predictors of high-interference risk.
-- The Random Forest baseline performed excellently on synthetic data.
-- On real O-RAN data, the model showed high precision but moderate recall (sim-to-real gap).
-- Despite the performance drop, the model remains useful due to its high reliability when predicting high-risk users.
-- The sim-to-real gap can be reduced by fine-tuning on real measurements in future work.
+- The Random Forest model performed excellently on synthetic data.
+- On real O-RAN data, a sim-to-real gap was observed (high precision, moderate recall).
+- The best decision threshold was found around 0.40–0.45, providing a good balance between precision and recall.
+- Despite the performance drop on real data, the model remains useful due to its high reliability when predicting high-risk users.
 
 ### Next Steps
 In upcoming modules I will:
