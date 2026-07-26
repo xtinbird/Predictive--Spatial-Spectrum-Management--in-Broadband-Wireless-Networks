@@ -1,4 +1,4 @@
-# Predictive--Spatial-Spectrum-Management--in-Broadband-Wireless-Networks
+# Predictive-Spatial-Spectrum-Management-in-Broadband-Wireless-Networks
 This is for UC Berkeley Professional Certificate in Machine Learning and Artificial intelligence: Required Capstone Assignment 20.1: Initial Report and Exploratory Data Analysis (EDA)
 
 ## Research Question
