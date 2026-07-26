@@ -64,7 +64,4 @@ In upcoming modules I will:
 2. Open `01_EDA_and_Baseline_Model.ipynb`
 3. Run all cells in order
 
-## Author
-Zheng Wang 
-Capstone Project
 
