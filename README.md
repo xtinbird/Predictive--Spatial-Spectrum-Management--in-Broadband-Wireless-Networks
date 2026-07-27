@@ -18,7 +18,7 @@ For external validation, I use the public “Mobility Dataset from a 7.2 O-RAN d
 - **Classification**: K-Nearest Neighbors (KNN), Logistic Regression, Decision Tree, and Random Forest to identify high-interference-risk users
 
 ## Repository Structure
-- `01_EDA_and_Baseline_Model.ipynb` → Exploratory Data Analysis + Baseline Models (Module 20)
+- `Capstone_EDA_and_Baseline_Model.ipynb` → Exploratory Data Analysis + Baseline Models (Module 20)
 - Additional notebooks will be added in later modules (ARIMA, model comparison, etc.)
 
 ## Results (Module 20 – EDA & Baseline Models)
