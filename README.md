@@ -27,7 +27,7 @@ For external validation, I use the public “Mobility Dataset from a 7.2 O-RAN d
 Synthetic O-RAN style telemetry was generated with 20 UEs and 500 timesteps per UE.  
 Key features include location (x, y), speed, heading, Doppler shift, SSB beam index, RSRP, RSRQ, SINR, and PRB utilization.
 
-The real-world “Mobility Dataset from a 7.2 O-RAN deployment” (Mendeley) was also cleaned and prepared for external validation of the interference classification model.
+The real-world “Mobility Dataset from a 7.2 O-RAN deployment” (Mendeley) was also cleaned and prepared for external validation of the interference classification model.(https://data.mendeley.com/datasets/khxgr6m8wz/1)
 
 ### Exploratory Data Analysis Highlights
 - SINR, RSRP, and PRB utilization show the strongest relationship with high-interference risk.
