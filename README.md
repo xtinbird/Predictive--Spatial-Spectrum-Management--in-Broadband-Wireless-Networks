@@ -53,10 +53,11 @@ Feature importance analysis from the Random Forest model confirmed that SINR, RS
 The Random Forest classifier (trained on synthetic data using only common features: RSRP, RSRQ, and SINR) was evaluated on the cleaned real O-RAN dataset. This provides an initial measure of how well the interference detection model generalizes to real network measurements.
 
 ### Key Findings
-- SINR, RSRP, and PRB utilization are the strongest predictors of high-interference risk.
+- SINR and RSRP are the strongest predictors of high-interference risk (confirmed by correlation and feature importance).
+- Spatial analysis shows lower SINR near cell edges and between base stations.
 - The Random Forest model performed excellently on synthetic data.
 - On real O-RAN data, a sim-to-real gap was observed (high precision, moderate recall).
-- The best decision threshold was found around 0.40–0.45, providing a good balance between precision and recall.
+- The best decision threshold was found around 0.40–0.45.
 - Despite the performance drop on real data, the model remains useful due to its high reliability when predicting high-risk users.
 
 ### Next Steps
