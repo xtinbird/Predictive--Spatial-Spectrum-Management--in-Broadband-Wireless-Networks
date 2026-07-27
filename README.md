@@ -69,7 +69,7 @@ In upcoming modules I will:
 
 ## How to Run
 1. Clone this repository
-2. Open `01_EDA_and_Baseline_Model.ipynb`
+2. Open `Capstone_EDA_and_Baseline_Model.ipynb`
 3. Run all cells in order
 
 
